@@ -1,0 +1,182 @@
+/* সাধারণ স্টাইল */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* হেডার */
+header {
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* হোম সেকশন */
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .btn {
+    background: #ffcc00;
+    color: black;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ffaa00;
+    transform: scale(1.05);
+}
+
+/* ফিচার সেকশন */
+.features {
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.feature-item i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* ডাউনলোড সেকশন */
+.download {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 50px 20px;
+}
+
+.download h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.download .btn {
+    background: #ffcc00;
+    color: black;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+}
+
+.download .btn:hover {
+    background: #ffaa00;
+    transform: scale(1.05);
+}
+
+/* যোগাযোগ সেকশন */
+.contact {
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact .btn {
+    background: #007bff;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+}
+
+.contact .btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ফুটার */
+footer {
+    background: #343a40;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
